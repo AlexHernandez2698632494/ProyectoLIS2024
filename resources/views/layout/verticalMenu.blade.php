@@ -1,98 +1,37 @@
     <nav id="sidebar">
         <div class="sidebar-header">
-            <h4>SEMINARIO MAYOR «PÍO XII»</h4>
+            <h4>Departamento de Arte y Cultura</h4>
         </div>
         <ul class="list-unstyled components">  
-            <li id="opcionesDocente">
-                <a class="dropdown-toggle" data-bs-toggle="collapse" href="#menuDocentes" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    Docentes
+            <li id="opcionesEventos">
+                <a class="dropdown-toggle" data-bs-toggle="collapse" href="#menuEventos" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Eventos
                 </a>
-                <ul class="collapse list-unstyled" id="menuDocentes">
+                <ul class="collapse list-unstyled" id="menuEventos">
                     <li>
-                        <a href="{{ route('teachers.create') }}" id="registroDocentes">Registro de docentes</a>
+                        <a href="" id="registroDocentes">Registro de eventos</a>
                     </li>
                     <li>
-                        <a href="{{ route('teachers.index') }}" id="controlDocentes">Control de docentes</a>
+                        <a href="" id="controlDocentes">Control de eventos</a>
                     </li>
                     <li>
-                        <a href="{{ route('teacher.restoreView') }}" id="docentesEliminados">Docentes eliminados</a>
+                        <a href="" id="docentesEliminados">Eventos eliminados</a>
                     </li>
-                </ul>
-            </li>                     
-            <li id="opcionesSeminaristas">
-                <a class="dropdown-toggle" data-bs-toggle="collapse" href="#menuSeminaristas" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    Seminaristas
-                </a>
-                <ul class="collapse list-unstyled" id="menuSeminaristas">
-                    <li>
-                        <a href="{{ route('student.create') }}" id="registroSeminarista">Registro de seminaristas</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('student.index') }}" id="controlSeminaristas">Control de seminaristas</a>
-                    </li>
-                    <li>
-                        <a href="{{ route('student.rejected') }}" id="candidatosRechazados">Candidatos rechazados</a>
-                    </li> 
-                    <li>
-                        <a href="{{ route('student.restoreView') }}" id="seminaristasEliminados">Seminaristas eliminados</a>
-                    </li>  
-                </ul>
-            </li> 
-            <li id="opcionesGrupo">
-                <a class="dropdown-toggle" data-bs-toggle="collapse" href="#menuGrupos" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    Grupos de clase
-                </a>
-                <ul class="collapse list-unstyled" id="menuGrupos">
-                    <li>
-                        <a href="{{route('group.create')}}" id="registroGrupos">Registro de grupos</a>
-                    </li> 
-                    <li>
-                        <a href="{{route('group.index')}}" id="controlGrupos">Control de grupos</a>
-                    </li>    
-                    <li>
-                        <a href="{{route('group.finalized')}}" id="gruposFinlizados">Grupos finalizados</a>
-                    </li>                  
                 </ul>
             </li>  
-            <li id="opcionesCiclo">
-                <a class="dropdown-toggle" data-bs-toggle="collapse" href="#menuCiclos" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    Ciclos
-                </a>
-                <ul class="collapse list-unstyled" id="menuCiclos">
-                    <li>
-                        <a href="{{ route('period.create') }}" id="indexPeriodos">Registro y control de ciclos</a>
-                    </li>                    
-                </ul>
-            </li>
-            <li id="opcionesMateria">
-                <a class="dropdown-toggle" data-bs-toggle="collapse" href="#menuMaterias" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    Materias
-                </a>
-                <ul class="collapse list-unstyled" id="menuMaterias">
-                    <li>
-                        <a href="{{ route('subject.create') }}" id="registroMaterias">Registro de materias</a>
-                    </li>  
-                    <li>
-                        <a href="{{ route('subject.index') }}" id="controlMaterias">Control de materias</a>
-                    </li> 
-                    <li>
-                        <a href="{{ route('subject.indexEliminadas') }}" id="materiasEliminadas">Materias eliminadas</a>
-                    </li>                    
-                </ul>
-            </li> 
             <li id="opcionesAdministradores">
                 <a class="dropdown-toggle" data-bs-toggle="collapse" href="#menuAdministradores" role="button" aria-expanded="false" aria-controls="collapseExample">
                     Administradores
                 </a>
                 <ul class="collapse list-unstyled" id="menuAdministradores">
                     <li>
-                        <a href="{{route('admin.create')}}" id="registroAdministradores">Registro de Administradores</a>
+                        <a href="" id="registroAdministradores">Registro de Administradores</a>
                     </li>
                     <li>
-                        <a href="{{route('admin.index')}}" id="controlAdministradores">Control de Administradores</a>
+                        <a href="" id="controlAdministradores">Control de Administradores</a>
                     </li>     
                     <li>
-                        <a href="{{route('admin.indexE')}}" id="controlAdministradoresE">Administradores Eliminados</a>
+                        <a href="" id="controlAdministradoresE">Administradores Eliminados</a>
                     </li>                
                 </ul>
             </li>
@@ -102,35 +41,27 @@
                 </a>
                 <ul class="collapse list-unstyled" id="menuUsuarios">
                     <li>
-                        <a href="{{ route('users.index') }}" id="controlUsuarios">Control de usuarios</a>
+                        <a href="" id="controlUsuarios">Control de usuarios</a>
                     </li>
                     <li>
-                        <a href="{{ route('users.solicitudes') }}" id="solicitudesUsuarios">Solicitudes de recuperación de contraseña</a>
+                        <a href="" id="solicitudesUsuarios">Solicitudes de recuperación de contraseña</a>
                     </li>                   
                 </ul>
             </li>
-            <li id="opcionesReprobados">
-                <a href="{{ route('student.showFailedExtra') }}" role="button" >
-                    Seminaristas reprobados                    
-                </a>                
-            </li>
+            
             <li id="opcionesCambiarContra">
-                <a href="{{route('users.formContra')}}">
+                <a href="">
                     Cambiar contraseña
                 </a>
             </li>
-            <li id="opcionesMostrarManual">
-                <a target="_blank" href="{{asset('/pdf/manualAdministrador.pdf')}}">
-                    Manual de usuario
-                </a>
-            </li>                                                      
+                                                               
         </ul>
         <ul class="list-unstyled CTAs">
             {{-- <li>
                 <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Cerrar sesión</a>
             </li> --}}
             <li>
-                <a href="{{ route('logout') }}" class="article">Cerrar sesión</a>
+                <a href="" class="article">Cerrar sesión</a>
             </li>
         </ul>
     </nav>
