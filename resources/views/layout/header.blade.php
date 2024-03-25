@@ -31,6 +31,6 @@
     <script src="{{ asset('js/initflatpickr.js') }}"></script> 
     <script src="{{ asset('js/alertify.js') }}"></script>
     <link href="{{ asset('css/alertify.min.css') }}" type="text/css" rel="stylesheet">
-    <link rel="shortcut icon" href="http://127.0.0.1:8000/img/logo2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="http://127.0.0.1:8000/img/logo2.png" ALTtype="image/x-icon">
     <title>DAC | @yield('title')</title>
 </head>

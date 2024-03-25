@@ -52,7 +52,7 @@ a:focus {
 ----------------------------------------------------- */
 
 .wrapper {
-    display: flex;
+    display:flex;
     width: 100%;
     align-items: stretch;
 }
@@ -60,9 +60,12 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #7386D5;
+    background-image: linear-gradient(to right,#025098 0%,
+    #0152A1 25%,
+    #015BA7 50%,
+    #0B71B9 75%,
+    #0D87C8 100%);
     color: #fff;
-    transition: all 0.3s;
 }
 
 #sidebar.active {
@@ -71,12 +74,12 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #3998D2;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    border-bottom: 1px solid #3998D2;
 }
 
 #sidebar ul p {
@@ -91,14 +94,14 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #0044A5;
     background: #fff;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    background: #0044A5;
 }
 
 a[data-toggle="collapse"] {
@@ -116,7 +119,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #00BEF0;
 }
 
 ul.CTAs {
@@ -132,13 +135,13 @@ ul.CTAs a {
 }
 
 a.download {
-    background: #fff;
-    color: #7386D5;
+    background: #3998D2;
+    color: #5c7cff;
 }
 
 a.article,
 a.article:hover {
-    background: #6d7fcc !important;
+    background: #3998D2 !important;
     color: #fff !important;
 }
 
@@ -149,7 +152,7 @@ a.article:hover {
 #content {
     width: 100%;
     padding: 20px;
-    min-height: 100vh;
+    min-height: 87vh;
     transition: all 0.3s;
 }
 
@@ -170,7 +173,7 @@ a.article:hover {
 }
 
 .btn-color{
-    background-color: #0e1c36;
+    background-color: #3998D2;
     color: #fff;
 
   }
@@ -192,17 +195,17 @@ a.article:hover {
   }
 
   .separator {
-    background-color:#7386D5;
+    background-color:#0060B4;
     height: 1px;
     border-radius: 2rem
   }
 
   .btn-Add {
-    background-color: #7386D5;
+    background-color: #0060B4;
     color: white;
   }
 
   .btn-Add:hover{
-    border: #7386D5 0.1px solid;
-    color: #7386D5
+    border: #0060B4 0.1px solid;
+    color: #0060B4
   }

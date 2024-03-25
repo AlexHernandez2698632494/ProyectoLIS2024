@@ -13,11 +13,11 @@
 						<div class="card-body p-5 text-center">
 							<!-- Pills navs -->
 							<ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
-								<li class="nav-item" role="presentation">
-									<a class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="true" style="background-color: #0060B4;">Login</a>
+							<li class="nav-item" role="presentation">
+									<a class="nav-link" id="tab-register" data-mdb-toggle="pill" href="#pills-register" role="tab" aria-controls="pills-register" aria-selected="false" style="color: #0060B4;">Registrar Invitado</a>
 								</li>
 								<li class="nav-item" role="presentation">
-									<a class="nav-link" id="tab-register" data-mdb-toggle="pill" href="#pills-register" role="tab" aria-controls="pills-register" aria-selected="false" style="color: #0060B4;">Register</a>
+									<a class="nav-link" id="tab-register" data-mdb-toggle="pill" href="#pills-register" role="tab" aria-controls="pills-register" aria-selected="false" style="color: #0060B4;">Registrar Estudiante</a>
 								</li>
 							</ul>
 							<!-- Pills navs -->
