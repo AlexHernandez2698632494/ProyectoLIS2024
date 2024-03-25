@@ -69,3 +69,9 @@ logo varchar(255) not null,
 ninos int not null,
 ninas int not null,
 acompanantes int not null ); 
+
+CREATE TABLE RESERVA(
+idSolicitud int primary key not null auto_increment,
+`idUsuario` varchar(10) not null,
+fecha date not null,
+estado int not null default 1 ); 
