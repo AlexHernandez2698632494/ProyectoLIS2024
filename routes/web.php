@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InvitadoController;
+use App\Http\Controllers\EventController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,6 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::controller(InvitadoController::class)->group(function(){
-    route::get('/index','index')->name('invitado.index');
+Route::controller(EventController::class)->group(function(){
+    route::get('/index','index')->name('evento.index');
+    route::get('/create','create')->name('evento.create');
 });

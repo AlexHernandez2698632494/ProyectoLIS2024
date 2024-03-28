@@ -26,7 +26,7 @@
 							<h3 class="mb-3">Sistema de Registro de Asistencia DAC</h3>
 
 							<div class="my-4" style="background-color:#0060B4; height: 3px; border-radius: 2rem"></div>
-							<form method="GET" action="{{ route('invitado.index') }}">
+							<form method="GET" action="{{ route('evento.index') }}">
 								@csrf
 								<div class="input-group mb-3">
 									<span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>

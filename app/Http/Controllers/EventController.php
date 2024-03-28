@@ -4,10 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class InvitadoController extends Controller
+class EventController extends Controller
 {
+    //
     public function index()
     {
+        return view('evento.index');
     }
 
     /**
@@ -16,6 +18,7 @@ class InvitadoController extends Controller
     public function create()
     {
         //
+        return view('evento.add');
     }
 
     /**

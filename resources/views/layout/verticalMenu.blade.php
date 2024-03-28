@@ -9,10 +9,10 @@
                 </a>
                 <ul class="collapse list-unstyled" id="menuEventos">
                     <li>
-                        <a href="" id="registroDocentes">Registro de eventos</a>
+                        <a href="{{route('evento.create')}}" id="registroDocentes">Registro de eventos</a>
                     </li>
                     <li>
-                        <a href="" id="controlDocentes">Control de eventos</a>
+                        <a href="{{route('evento.index')}}" id="controlDocentes">Control de eventos</a>
                     </li>
                     <li>
                         <a href="" id="docentesEliminados">Eventos eliminados</a>
